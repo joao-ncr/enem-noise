@@ -1,0 +1,19 @@
+# Experimento 001 — configuração PRÉ-REGISTRADA (ver prereg.md). Todos os valores são HIPOTÉTICOS.
+seed: 20261007
+iterations: 100000
+rule: inep_2025
+models: [M0, M1]
+panels: [neutro, misto, alta_variabilidade]
+sigmas: [0.1, 0.2, 0.35, 0.5, 0.75]
+sigma_us: [0.0, 0.15]
+sigma_beta: 0.1
+essay_levels: [3.0, 4.0]           # 3 -> T*=600 ; 4 -> T*=800
+cutoffs: [600, 700, 800]
+criteria:                           # FIXADOS A PRIORI
+  sd_threshold: 40
+  err_threshold: 40
+  p_threshold: 0.05
+pair:
+  A: [4, 4, 4, 4, 4]
+  B: [4, 4, 3, 4, 4]
+p1000_levels: [4.0, 4.5, 4.75, 5.0]

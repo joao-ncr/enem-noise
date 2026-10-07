@@ -1,0 +1,45 @@
+{
+  "experiment": "exp003_reliability_calibration",
+  "seed": 20261009,
+  "iterations": 50000,
+  "model_version": "enemnoise-model-0.1.0",
+  "data_version": "simulated-v0",
+  "timestamp_utc": "2026-10-07T19:18:25.546941+00:00",
+  "config_hash": "68f257cdf22638b333dab4e9e9653e96834199351fd9971a115976ce635c0fef",
+  "numpy": "2.4.4",
+  "python": "3.12.3",
+  "config": {
+    "seed": 20261009,
+    "n_essays": 50000,
+    "sigmas": [
+      0.15,
+      0.25,
+      0.35,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "calibration_sigmas": [
+      0.15,
+      0.25,
+      0.35,
+      0.5,
+      0.75
+    ],
+    "synthetic_true_sigma": 0.35,
+    "sigma_u": 0.15,
+    "rule": "inep_2025",
+    "population": {
+      "mu": [
+        3.2,
+        3.2,
+        3.0,
+        3.0,
+        3.0
+      ],
+      "tau": 0.9,
+      "rho": 0.7
+    }
+  },
+  "quick": false
+}

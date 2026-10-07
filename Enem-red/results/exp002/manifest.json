@@ -1,0 +1,41 @@
+{
+  "experiment": "exp002_ranking",
+  "seed": 20261008,
+  "iterations": 50,
+  "model_version": "enemnoise-model-0.1.0",
+  "data_version": "simulated-v0",
+  "timestamp_utc": "2026-10-07T19:18:15.166401+00:00",
+  "config_hash": "d81d4c416eb44f1196284f587f9da4ab322b8af4aa53dd53c6c1c5b1ba79e937",
+  "numpy": "2.4.4",
+  "python": "3.12.3",
+  "config": {
+    "seed": 20261008,
+    "replicates": 50,
+    "sizes": [
+      10,
+      100,
+      1000
+    ],
+    "sigmas": [
+      0.2,
+      0.35,
+      0.6
+    ],
+    "sigma_u": 0.15,
+    "panel": "neutro",
+    "rule": "inep_2025",
+    "top_fraction": 0.2,
+    "population": {
+      "mu": [
+        3.2,
+        3.2,
+        3.0,
+        3.0,
+        3.0
+      ],
+      "tau": 0.9,
+      "rho": 0.7
+    }
+  },
+  "quick": false
+}

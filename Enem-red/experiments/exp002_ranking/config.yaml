@@ -1,0 +1,9 @@
+seed: 20261008
+replicates: 50
+sizes: [10, 100, 1000]
+sigmas: [0.2, 0.35, 0.6]
+sigma_u: 0.15
+panel: neutro
+rule: inep_2025
+top_fraction: 0.2
+population: {mu: [3.2, 3.2, 3.0, 3.0, 3.0], tau: 0.9, rho: 0.7}   # HIPOTÉTICA

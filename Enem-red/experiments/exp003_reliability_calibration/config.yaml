@@ -1,0 +1,8 @@
+seed: 20261009
+n_essays: 50000
+sigmas: [0.15, 0.25, 0.35, 0.5, 0.75, 1.0]
+calibration_sigmas: [0.15, 0.25, 0.35, 0.5, 0.75]
+synthetic_true_sigma: 0.35
+sigma_u: 0.15
+rule: inep_2025
+population: {mu: [3.2, 3.2, 3.0, 3.0, 3.0], tau: 0.9, rho: 0.7}   # HIPOTÉTICA

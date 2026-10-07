@@ -1,0 +1,103 @@
+{
+  "fits": [
+    {
+      "sigma": 0.15,
+      "sigma_u": 0.15,
+      "tau": 0.9,
+      "rho": 0.7,
+      "mu": [
+        3.1952850000000006,
+        3.2007000000000003,
+        3.0013500000000004,
+        3.001815,
+        3.0001049999999996
+      ],
+      "distance": 3.344446878852926,
+      "p_third": 0.12165,
+      "p_banca": 0.0004,
+      "sim_total_std": 158.34073331076647,
+      "consistent": false
+    },
+    {
+      "sigma": 0.25,
+      "sigma_u": 0.15,
+      "tau": 0.9,
+      "rho": 0.7,
+      "mu": [
+        3.196035,
+        3.2008,
+        3.0015,
+        3.0019400000000003,
+        3.001104999999999
+      ],
+      "distance": 1.7502190020129131,
+      "p_third": 0.146,
+      "p_banca": 0.00105,
+      "sim_total_std": 158.3325939265664,
+      "consistent": false
+    },
+    {
+      "sigma": 0.35,
+      "sigma_u": 0.15,
+      "tau": 0.9,
+      "rho": 0.7,
+      "mu": [
+        3.1984600000000003,
+        3.2048249999999996,
+        3.0023500000000003,
+        3.0045650000000004,
+        3.002254999999999
+      ],
+      "distance": 0.47352389312703924,
+      "p_third": 0.1804,
+      "p_banca": 0.0029,
+      "sim_total_std": 158.28131838213704,
+      "consistent": true
+    },
+    {
+      "sigma": 0.5,
+      "sigma_u": 0.15,
+      "tau": 0.9,
+      "rho": 0.7,
+      "mu": [
+        3.20216,
+        3.2091,
+        3.006075,
+        3.00444,
+        3.0081799999999994
+      ],
+      "distance": 2.093167781617145,
+      "p_third": 0.24505,
+      "p_banca": 0.0086,
+      "sim_total_std": 159.14673782458758,
+      "consistent": false
+    },
+    {
+      "sigma": 0.75,
+      "sigma_u": 0.15,
+      "tau": 0.9,
+      "rho": 0.7,
+      "mu": [
+        3.21466,
+        3.222975,
+        3.011825000000001,
+        3.0119150000000006,
+        3.012154999999999
+      ],
+      "distance": 4.498691754652691,
+      "p_third": 0.38955,
+      "p_banca": 0.0549,
+      "sim_total_std": 161.0469576897653,
+      "consistent": false
+    }
+  ],
+  "best_sigma": 0.35,
+  "consistent_sigmas": [
+    0.35
+  ],
+  "relative_spread": 8.500453556724246,
+  "narrow_consistent_set": true,
+  "warning": "Faixa estreita de sigma consistente SOB ESTE MODELO (vale só se a especificação estiver correta; confira com a taxa real de terceiro corretor e com o teste de má especificação).",
+  "target_source": "SINTÉTICO (sigma verdadeiro=0.35, gerador=M1/neutro)",
+  "target_provenance": "SIMULADO"
+}
